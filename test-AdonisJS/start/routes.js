@@ -17,3 +17,7 @@
 const Route = use('Route')
 
 Route.on('/').render('welcome')
+
+
+//Router go to User Controller
+Route.post('users', 'UserController.store')
